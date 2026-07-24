@@ -3,10 +3,192 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohanad | Portfolio</title>
+  <meta name="description" content="Iraq market entry support, local business facilitation, logistics, administration, and service provider sourcing.">
+  <title>Mohanad Dialdin | Iraq Market Entry Support</title>
+
+  <style>
+    :root {
+      --background: #f5f5f3;
+      --surface: #ffffff;
+      --text: #1b1b1b;
+      --muted: #666666;
+      --border: #ddddda;
+      --button: #1f2937;
+      --button-hover: #111827;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 18px;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: 100%;
+      max-width: 760px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 48px;
+    }
+
+    header {
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+      font-weight: 700;
+    }
+
+    .activity {
+      margin: 0 auto;
+      max-width: 650px;
+      font-size: 1.12rem;
+      color: var(--muted);
+    }
+
+    section {
+      padding: 28px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 10px;
+    }
+
+    .contact {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .contact-item span {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .telegram {
+      padding-top: 28px;
+      text-align: center;
+    }
+
+    .telegram a {
+      display: inline-block;
+      width: 100%;
+      padding: 14px 22px;
+      border-radius: 8px;
+      background: var(--button);
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .telegram a:hover {
+      background: var(--button-hover);
+    }
+
+    footer {
+      padding-top: 22px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 30px 22px;
+      }
+
+      .contact {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Mohanad</h1>
-  <p>Administration and Finance professional transitioning into AI and automation.</p>
+  <main>
+    <header>
+      <h1>Mohanad Dialdin</h1>
+      <p class="activity">
+        Iraq Market Entry Support &amp; Local Business Facilitation
+      </p>
+    </header>
+
+    <section>
+      <h2>Services</h2>
+      <ul>
+        <li>Sourcing and identifying reliable service providers across Iraq.</li>
+        <li>Coordinating the transportation and local movement of goods and materials.</li>
+        <li>Providing business advisory and market-entry support.</li>
+        <li>Offering logistical, administrative, and local coordination services.</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <div class="contact-item">
+        <span>Phone</span>
+        <a href="tel:+9647733336289">+964 773 333 6289</a>
+      </div>
+
+      <div class="contact-item">
+        <span>Email</span>
+        <a href="mailto:contact@foriqwork.site">contact@foriqwork.site</a>
+      </div>
+    </section>
+
+    <div class="telegram">
+      <a href="https://t.me/ned1989k" target="_blank" rel="noopener noreferrer">
+        Contact via Telegram
+      </a>
+    </div>
+
+    <footer>
+      © 2026 Mohanad Dialdin
+    </footer>
+  </main>
 </body>
 </html>
